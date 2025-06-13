@@ -1,0 +1,72 @@
+@import "tailwindcss";
+/* You can add global styles to this file, and also import other style files */
+body {
+  font-family: sans-serif;
+}
+
+.container {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.common-form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: auto;
+}
+
+.form-input {
+  height: 35px;
+  margin-bottom: 20px;
+  border: 1px solid blueviolet;
+  padding-left: 15px;
+  color: blueviolet;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.form-button {
+  height: 35px;
+  border: 1px solid blueviolet;
+  border-radius: 5px;
+  font-size: 16px;
+  color: blueviolet;
+  background: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.form-button:hover {
+  background-color: blueviolet;
+  color: white;
+}
+
+.error-p {
+  color: red;
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.message-p {
+  color: green;
+}
+
+.link {
+  color: blue;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.link:visited {
+  color: purple;
+}
+
+.link:hover {
+  color: darkblue;
+  text-decoration: none;
+}
+
+.link:active {
+  color: red;
+}
