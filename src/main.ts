@@ -19,7 +19,7 @@ bootstrapApplication(AppComponent, {
   ...appConfig,
   providers: [
     ...(appConfig.providers || []),
-    provideHttpClient(),
+    // provideHttpClient(),
     provideRouter(routes),
     importProvidersFrom(FontAwesomeModule), // ⬅️ Required for <fa-icon>
   ],

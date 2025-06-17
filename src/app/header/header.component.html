@@ -8,18 +8,29 @@
   <div class="nav-search">
     <input
       type="text"
+      #searchInput
+      class="search-input"
       placeholder="Search Products"
       (keyup)="searchProduct($event)"
+      (blur)="hideSearchResult()"
     />
-    <button>Search</button>
+    <button (click)="submitSearch(searchInput.value)">Search</button>
+
+    <ul class="suggested-serach" *ngIf="searchResult">
+      <li *ngFor="let product of searchResult">
+        <a (mousedown)="redirectToDetails(product.id)">{{ product.name }}</a>
+      </li>
+    </ul>
   </div>
+
   } @switch (menuType) { @case ('default') {
   <ul>
     <li><a routerLink="/seller-auth">Seller</a></li>
     <li><a routerLink="/">Home</a></li>
-    <li><a href="#">Login</a></li>
+    <li><a routerLink="/user-auth">Login/Sign-up</a></li>
     <li><a href="#">Cart(0)</a></li>
   </ul>
+
   } @case ('seller') {
   <ul>
     <li><a routerLink="/seller-add-product">Add Product</a></li>
@@ -28,6 +39,18 @@
     <li>
       <a routerLink="#">{{ sellerName }} </a>
     </li>
+  </ul>
+  } @case ('user') {
+  <ul>
+    <li><a routerLink="/seller-auth">Seller</a></li>
+    <li><a routerLink="/">Home</a></li>
+    <li>
+      <a>{{ userName | titlecase }}</a>
+    </li>
+    <li>
+      <a (click)="userLogout()">Logout</a>
+    </li>
+    <li><a href="#">Cart(0)</a></li>
   </ul>
   } }
 </nav>

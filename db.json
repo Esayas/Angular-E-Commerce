@@ -66,274 +66,93 @@
   ],
   "products": [
     {
+      "id": "80p1",
       "name": "I Phone 13",
       "price": "1000",
       "category": "Mobile",
       "color": "White",
       "description": "White I Phone 2025",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": "80d1"
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
     },
     {
+      "id": "eyi1",
       "name": "Dump Truck",
       "price": "12345",
       "category": "Truck",
-      "color": "Black & white",
+      "color": "Blue",
       "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388"
     },
     {
+      "id": "e8a1",
       "name": "Mobile",
       "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Mobile",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "id": "e2a1"
-    },
-    {
-      "name": "Shoe",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Shoe",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "id": "e2a1"
-    },
-    {
-      "name": "Pant",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Cloth",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "id": "e2a1"
-    },
-    {
-      "name": "Dump Truck",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
-    },
-    {
-      "name": "I Phone 13",
-      "price": "1000",
       "category": "Mobile",
-      "color": "White",
-      "description": "White I Phone 2025",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": "80d1"
+      "color": "Red",
+      "description": "Mobile",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
     },
     {
-      "name": "Dump Truck",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
-    },
-    {
+      "id": "e8dx",
       "name": "Mobile",
       "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Mobile",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "id": "e2a1"
-    },
-    {
-      "name": "Shoe",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Shoe",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "id": "e2a1"
-    },
-    {
-      "name": "Pant",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Cloth",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "id": "e2a1"
-    },
-    {
-      "name": "Dump Truck",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
-    },
-    {
-      "name": "I Phone 13",
-      "price": "1000",
       "category": "Mobile",
-      "color": "White",
-      "description": "White I Phone 2025",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": "80d1"
-    },
-    {
-      "name": "Dump Truck",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
-    },
-    {
-      "name": "Mobile",
-      "price": "12345",
-      "category": "Truck",
       "color": "Black & white",
       "description": "Mobile",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "id": "e2a1"
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
     },
     {
-      "name": "Shoe",
+      "id": "e881",
+      "name": "Mobile",
       "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Shoe",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "id": "e2a1"
-    },
-    {
-      "name": "Pant",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Cloth",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "id": "e2a1"
-    },
-    {
-      "name": "Dump Truck",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
-    },
-    {
-      "name": "I Phone 13",
-      "price": "1000",
       "category": "Mobile",
-      "color": "White",
-      "description": "White I Phone 2025",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": "80d1"
-    },
-    {
-      "name": "Dump Truck",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
-    },
-    {
-      "name": "Mobile",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
+      "color": "Yellow",
       "description": "Mobile",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "id": "e2a1"
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
     },
     {
+      "id": "e2a1",
       "name": "Shoe",
       "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
+      "category": "Shoe",
+      "color": "Green",
       "description": "Shoe",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "id": "e2a1"
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png"
     },
     {
+      "id": "era1",
       "name": "Pant",
       "price": "12345",
       "category": "Truck",
-      "color": "Black & white",
+      "color": "Black",
       "description": "Cloth",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "id": "e2a1"
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "d58a",
+      "name": "Esayas",
+      "email": "newesayas@yahoo.com",
+      "password": "God"
     },
     {
-      "name": "Dump Truck",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
+      "id": "b962",
+      "name": "Esayas T",
+      "email": "newesayas@yahoo.com",
+      "password": "God"
     },
     {
-      "name": "I Phone 13",
-      "price": "1000",
-      "category": "Mobile",
-      "color": "White",
-      "description": "White I Phone 2025",
-      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o",
-      "id": "80d1"
+      "id": "aa1a",
+      "name": "Soliana",
+      "email": "newesayas@yahoo.com",
+      "password": "Choli"
     },
     {
-      "name": "Dump Truck",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
-    },
-    {
-      "name": "Mobile",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Mobile",
-      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
-      "id": "e2a1"
-    },
-    {
-      "name": "Shoe",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Shoe",
-      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png",
-      "id": "e2a1"
-    },
-    {
-      "name": "Pant",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Cloth",
-      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
-      "id": "e2a1"
-    },
-    {
-      "name": "Dump Truck",
-      "price": "12345",
-      "category": "Truck",
-      "color": "Black & white",
-      "description": "Truck",
-      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
-      "id": "e2a1"
+      "id": "c78b",
+      "name": "Eliab",
+      "email": "newesayas@yahoo.com",
+      "password": "Eliab"
     }
   ]
 }

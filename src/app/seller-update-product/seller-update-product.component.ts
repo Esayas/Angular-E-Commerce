@@ -24,7 +24,7 @@ export class SellerUpdateProductComponent {
     // console.log('id', productId);
     if (productId) {
       // Add a check to ensure productId is not null
-      this.productService.getProduct(productId).subscribe((res) => {
+      this.productService.getProductById(productId).subscribe((res) => {
         // console.log('TG', res);
         this.productData = res;
         // console.log('ProductData', this.productData);

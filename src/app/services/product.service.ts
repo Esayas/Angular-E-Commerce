@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { product } from '../data-type';
 import { HttpClient } from '@angular/common/http';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root',
@@ -22,7 +23,7 @@ export class ProductService {
     return this.http.delete(`http://localhost:3000/products/${id}`);
   }
 
-  getProduct(id: string) {
+  getProductById(id: string) {
     return this.http.get<product>(`http://localhost:3000/products/${id}`);
   }
 
@@ -37,9 +38,41 @@ export class ProductService {
     return this.http.get<product[]>('http://localhost:3000/products?_limit=3');
   }
 
-  searchProduct(query: string) {
+  getSearchProduct(query: string) {
     return this.http.get<product[]>(
       `http://localhost:3000/products?q=${query}`
+    );
+  }
+
+  getSearchProductByName(name: string) {
+    // console.log('name', name);
+    return this.http.get<product[]>(
+      `http://localhost:3000/products?name=${name}`
+    );
+  }
+
+  // getSearchProductByName(name: string) {
+  //   console.log('name', name);
+  //   return this.http.get<product[]>(
+  //     `http://localhost:3000/products?name_like=${name}`
+  //   );
+  // }
+
+  // getSearchProductByName(name: string) {
+  //   console.log('name', name);
+  //   return this.http.get<product[]>(`http://localhost:3000/products?q=${name}`);
+  // }
+
+  // getSearchProductByName(name: string): Observable<product[]> {
+  //   console.log('Searching for product:', name);
+  //   return this.http.get<product[]>(
+  //     `http://localhost:3000//products?name_like=${encodeURIComponent(name)}`
+  //   );
+  // }
+
+  searchProductsByName(query: string): Observable<product[]> {
+    return this.http.get<product[]>(
+      `http://localhost:3000/products?name_like=${query}`
     );
   }
 }

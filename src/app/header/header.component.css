@@ -46,9 +46,37 @@ nav h1 {
 .nav ul a {
   text-decoration: none;
   color: blueviolet;
+  cursor: pointer;
 }
 
 h1 a {
   text-decoration: none;
   color: blueviolet;
+}
+
+.suggested-serach {
+  position: absolute;
+  top: 40px;
+  z-index: 10;
+  width: 300px;
+  background: #fff;
+  display: list-item !important;
+}
+
+.suggested-serach li {
+  padding: 5px;
+  border: 1px solid #ddd;
+}
+
+.suggested-serach li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.suggested-serach:hover {
+  transform: scale(1.1);
+}
+.suggested-serach img {
+  width: ;
 }
