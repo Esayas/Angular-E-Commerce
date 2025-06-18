@@ -36,4 +36,16 @@ export class ProductDetailsComponent {
     }
     console.log(this.productQuantity);
   }
+
+  addToCart() {
+    if (this.productDetails) {
+      this.productDetails.quantity = this.productQuantity;
+      // console.log('product', this.productDetails);
+      if (localStorage.getItem('user')) {
+        this.productService.localAddToCart(this.productDetails);
+      }
+    }
+
+    // this.productService.addToCart(this.productDetails);
+  }
 }

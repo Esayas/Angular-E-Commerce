@@ -4,3 +4,18 @@
   font-size: 2.5rem;
   padding-top: 10px;
 }
+.user-auth a {
+  color: blueviolet;
+  text-decoration: none;
+  /* font-size: 1.5rem; */
+  cursor: pointer;
+}
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: -20px;
+}
+
+button:disabled {
+  cursor: not-allowed;
+}

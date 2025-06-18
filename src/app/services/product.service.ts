@@ -75,4 +75,16 @@ export class ProductService {
       `http://localhost:3000/products?name_like=${query}`
     );
   }
+
+  localAddToCart(product: product) {
+    let cartData = [];
+    let localCart = localStorage.getItem('localCart');
+    if (!localCart) {
+      localStorage.setItem('localCart', JSON.stringify([product]));
+    } else {
+      cartData = JSON.parse(localCart);
+      cartData.push(product);
+      localStorage.setItem('localCart', JSON.stringify(cartData));
+    }
+  }
 }

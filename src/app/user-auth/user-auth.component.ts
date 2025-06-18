@@ -11,7 +11,9 @@ import { UserService } from '../services/user.service';
   styleUrl: './user-auth.component.css',
 })
 export class UserAuthComponent {
+  errMsg: string = '';
   constructor(private userService: UserService) {}
+  showLogin: boolean = true;
 
   ngOnInit(): void {
     this.userService.userAuthReload();
@@ -19,5 +21,24 @@ export class UserAuthComponent {
 
   signUp(data: signUp) {
     this.userService.userSignIn(data);
+  }
+
+  login(data: signUp) {
+    // this.userService.userSignIn(data);
+    this.userService.userLogin(data);
+    this.userService.invalidUserAuth.subscribe((res) => {
+      if (res) {
+        this.errMsg = 'Invalid Credentials';
+        return;
+      }
+      console.log(res);
+    });
+  }
+
+  openSignUp() {
+    this.showLogin = false;
+  }
+  openLogin() {
+    this.showLogin = true;
   }
 }
