@@ -154,5 +154,67 @@
       "email": "newesayas@yahoo.com",
       "password": "Eliab"
     }
+  ],
+  "cart": [
+    {
+      "id": "f0e2",
+      "name": "Mobile",
+      "price": "12345",
+      "category": "Mobile",
+      "color": "Yellow",
+      "description": "Mobile",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "quantity": 1,
+      "productId": "e881",
+      "userId": "d58a"
+    },
+    {
+      "id": "881d",
+      "name": "Mobile",
+      "price": "12345",
+      "category": "Mobile",
+      "color": "Yellow",
+      "description": "Mobile",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "quantity": 1,
+      "productId": "e881",
+      "userId": "d58a"
+    },
+    {
+      "id": "4839",
+      "name": "Mobile",
+      "price": "12345",
+      "category": "Mobile",
+      "color": "Yellow",
+      "description": "Mobile",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg",
+      "quantity": 1,
+      "productId": "e881",
+      "userId": "d58a"
+    },
+    {
+      "id": "45fc",
+      "name": "Pant",
+      "price": "12345",
+      "category": "Truck",
+      "color": "Black",
+      "description": "Cloth",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg",
+      "quantity": 1,
+      "productId": "era1",
+      "userId": "d58a"
+    },
+    {
+      "id": "8fc0",
+      "name": "Dump Truck",
+      "price": "12345",
+      "category": "Truck",
+      "color": "Blue",
+      "description": "Truck",
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388",
+      "quantity": 2,
+      "productId": "eyi1",
+      "userId": "d58a"
+    }
   ]
 }

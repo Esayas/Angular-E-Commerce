@@ -18,6 +18,7 @@ export class HeaderComponent {
   userName: string = '';
   currentUrl: string = '';
   searchResult: undefined | product[];
+  cartItems: number = 0;
 
   constructor(private router: Router, private productService: ProductService) {
     this.currentUrl = this.router.url;
@@ -43,11 +44,23 @@ export class HeaderComponent {
           // console.log('userData', userData);
           this.userName = userData.name;
           this.menuType = 'user';
+          this.productService.getCartList(userData.id);
         } else {
           // console.log('This is not seller page');
           this.menuType = 'default';
         }
       }
+    });
+
+    let cartData = localStorage.getItem('localCart');
+    if (cartData) {
+      this.cartItems = JSON.parse(cartData).length;
+    } else {
+      this.cartItems = 0;
+    }
+
+    this.productService.cartData.subscribe((items: any) => {
+      this.cartItems = items.length;
     });
   }
 
@@ -60,6 +73,7 @@ export class HeaderComponent {
   userLogout() {
     localStorage.removeItem('user');
     this.router.navigateByUrl('/user-auth');
+    this.productService.cartData.emit([]);
     // this.menuType = 'default';
   }
 

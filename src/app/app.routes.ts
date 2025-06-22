@@ -10,6 +10,7 @@ import { SellerUpdateProductComponent } from './seller-update-product/seller-upd
 import { SearchComponent } from './search/search.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { UserAuthComponent } from './user-auth/user-auth.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
 
 export const routes: Routes = [
   {
@@ -37,7 +38,11 @@ export const routes: Routes = [
     component: UserAuthComponent,
     title: 'user auth',
   },
-
+  {
+    path: 'cart-page',
+    component: CartPageComponent,
+    title: 'cart page',
+  },
   {
     path: 'seller-home',
     component: SellerHomeComponent,

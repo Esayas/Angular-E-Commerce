@@ -19,7 +19,16 @@
       <h6>Category:{{ productDetails.category }}</h6>
       <h6>Description:{{ productDetails.description }}</h6>
       <button class="btn btn-primary">Buy Now</button>
-      <button class="btn btn-success" (click)="addToCart()">Add to Cart</button>
+      <button
+        *ngIf="removeCart"
+        class="btn btn-success"
+        (click)="removeFromCart(productDetails.id)"
+      >
+        Remove Cart
+      </button>
+      <button *ngIf="!removeCart" class="btn btn-success" (click)="addToCart()">
+        Add to Cart
+      </button>
       <div class="quantity-group">
         <button (click)="handleQuantity('dec')">-</button>
         <input type="text" value="{{ productQuantity }}" />
