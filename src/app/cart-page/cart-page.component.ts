@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { cart, priceSummary } from '../data-type';
 import { ProductService } from '../services/product.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-cart-page',
@@ -17,9 +18,25 @@ export class CartPageComponent {
     delivery: 0,
     total: 0,
   };
-  constructor(private productService: ProductService) {}
+  constructor(private productService: ProductService, private router: Router) {}
 
   ngOnInit(): void {
+    this.loadPage();
+  }
+
+  checkout() {
+    this.router.navigateByUrl('/checkout');
+  }
+
+  removeFromCart(cartId: string | undefined) {
+    cartId &&
+      this.productService.removeItemFromCartById(cartId).subscribe((res) => {
+        console.log('res', res);
+        this.loadPage();
+      });
+  }
+
+  loadPage() {
     let userStore = localStorage.getItem('user');
     let userData = userStore && JSON.parse(userStore);
 
@@ -41,7 +58,9 @@ export class CartPageComponent {
           this.priceSummary.delivery = 100;
           this.priceSummary.total = price + price / 10 + 100 - price / 10;
 
-          console.log('price', this.priceSummary);
+          if (this.cartData.length === 0) {
+            this.router.navigateByUrl('/');
+          }
         }
       });
   }

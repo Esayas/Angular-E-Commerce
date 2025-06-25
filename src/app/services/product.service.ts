@@ -1,5 +1,5 @@
 import { EventEmitter, Injectable } from '@angular/core';
-import { cart, product } from '../data-type';
+import { cart, order, product } from '../data-type';
 import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
@@ -134,5 +134,31 @@ export class ProductService {
         observe: 'response',
       }
     );
+  }
+
+  orderItems(data: order) {
+    console.log('Order Items API', data);
+    return this.http.post('http://localhost:3000/orders', data);
+  }
+
+  getOrderListsByUserId(userId: string) {
+    return this.http.get<order[]>(
+      'http://localhost:3000/orders?userId=' + userId,
+      {
+        observe: 'response',
+      }
+    );
+  }
+
+  deleteCartItems(cartId: string) {
+    return this.http
+      .delete(`http://localhost:3000/cart/${cartId}`)
+      .subscribe((res) => {
+        this.cartData.emit([]);
+      });
+  }
+
+  cancelOrder(orderId: string) {
+    return this.http.delete(`http://localhost:3000/orders/${orderId}`);
   }
 }

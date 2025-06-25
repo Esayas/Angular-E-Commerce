@@ -3,7 +3,7 @@
     <a routerLink="/">E-Comm</a>
   </h1>
 
-  @if (menuType === 'default') {
+  @if (menuType !== 'seller') {
 
   <div class="nav-search">
     <input
@@ -50,10 +50,14 @@
       <a>{{ userName | titlecase }}</a>
     </li>
     <li>
-      <a (click)="userLogout()">Logout</a>
+      <a routerLink="/my-orders">My-orders</a>
     </li>
     <li>
-      <a routerLink="/cart-page">Cart({{ cartItems }})</a>
+      <a (click)="userLogout()">Logout</a>
+    </li>
+
+    <li *ngIf="cartItems > 0">
+      <a [routerLink]="'/cart-page'"> Cart({{ cartItems }}) </a>
     </li>
   </ul>
   } }

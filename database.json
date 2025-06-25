@@ -1,0 +1,177 @@
+{
+  "seller": [
+    {
+      "id": "4e4c",
+      "name": "TG",
+      "email": "TG@gmail.com",
+      "password": "abc@123"
+    },
+    {
+      "id": "a39e",
+      "name": "Esayas",
+      "email": "Esayas@gmail.com",
+      "password": "Thanks@God1"
+    },
+    {
+      "id": "ab51",
+      "name": "TG",
+      "password": "TG@1234",
+      "email": "newesayas@yahoo.com"
+    },
+    {
+      "id": "ff18",
+      "name": "Eliab",
+      "password": "Elian1234",
+      "email": "tadessegebrekidan@yahoo.com"
+    },
+    {
+      "id": "eea7",
+      "name": "Mielku",
+      "password": "mielku123",
+      "email": "tadessegebrekidan@yahoo.com"
+    },
+    {
+      "id": "90ac",
+      "name": "Firtu",
+      "password": "Firtu@123",
+      "email": "newesayas@yahoo.com"
+    },
+    {
+      "id": "4c4a",
+      "name": "abc",
+      "password": "abc2123",
+      "email": "eb2579@cumc.columbia.edu"
+    },
+    {
+      "id": "5c09",
+      "name": "123",
+      "password": "123",
+      "email": "123@gmail.com"
+    },
+    {
+      "id": "a478",
+      "name": "I-Phone 14",
+      "email": "GG@yahoo.com",
+      "password": "fgsss"
+    },
+    {
+      "id": "c77b",
+      "name": "I-Phone 14",
+      "price": "140",
+      "color": "red",
+      "category": "mobile",
+      "description": "TG",
+      "image": "https://unsplash.com/photos/a-person-holding-a-cell-phone-in-their-hand-J743FMzDT6U"
+    }
+  ],
+  "products": [
+    {
+      "id": "80p1",
+      "name": "I Phone 13",
+      "price": "1000",
+      "category": "Mobile",
+      "color": "White",
+      "description": "White I Phone 2025",
+      "image": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSOO1JDPUNwcPiqzHYhaL_zpJA0Ymlr6mD9sSgTPad_JYdrk-o"
+    },
+    {
+      "id": "eyi1",
+      "name": "Dump Truck",
+      "price": "12345",
+      "category": "Truck",
+      "color": "Blue",
+      "description": "Truck",
+      "image": "https://cdn.shopify.com/s/files/1/0011/8367/8476/products/Truck2_1400x.png?v=1662789388"
+    },
+    {
+      "id": "e8a1",
+      "name": "Mobile",
+      "price": "12345",
+      "category": "Mobile",
+      "color": "Red",
+      "description": "Mobile",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
+    },
+    {
+      "id": "e8dx",
+      "name": "Mobile",
+      "price": "12345",
+      "category": "Mobile",
+      "color": "Black & white",
+      "description": "Mobile",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
+    },
+    {
+      "id": "e881",
+      "name": "Mobile",
+      "price": "12345",
+      "category": "Mobile",
+      "color": "Yellow",
+      "description": "Mobile",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Top-laptop-brands-in-India.jpg"
+    },
+    {
+      "id": "e2a1",
+      "name": "Shoe",
+      "price": "12345",
+      "category": "Shoe",
+      "color": "Green",
+      "description": "Shoe",
+      "image": "https://static.nike.com/a/images/t_PDP_1280_v1/f_auto,q_auto:eco/1eeaacc0-e07c-4024-a5f7-57f2fd23e8a2/air-max-270-g-golf-shoe-Z6vCfs.png"
+    },
+    {
+      "id": "era1",
+      "name": "Pant",
+      "price": "12345",
+      "category": "Truck",
+      "color": "Black",
+      "description": "Cloth",
+      "image": "https://www.filmibeat.com/wimg/desktop/2012/12/13548612746596.jpg"
+    }
+  ],
+  "users": [
+    {
+      "id": "d58a",
+      "name": "Esayas",
+      "email": "newesayas@yahoo.com",
+      "password": "God"
+    },
+    {
+      "id": "b962",
+      "name": "Esayas T",
+      "email": "newesayas@yahoo.com",
+      "password": "God"
+    },
+    {
+      "id": "aa1a",
+      "name": "Soliana",
+      "email": "newesayas@yahoo.com",
+      "password": "Choli"
+    },
+    {
+      "id": "c78b",
+      "name": "Eliab",
+      "email": "newesayas@yahoo.com",
+      "password": "Eliab"
+    }
+  ],
+  "cart": [],
+  "orders": [
+    {
+      "id": "ef91",
+      "email": "newesayas@yahoo.com",
+      "address": "Addis Ababa",
+      "contact": "0911687420",
+      "totalPrice": 74170,
+      "userId": "d58a"
+    },
+    {
+      "id": "69e1",
+      "email": "eb2579@cumc.columbia.edu",
+      "address": "Addis Ababa, ADDIS ABABA",
+      "contact": "0911687420",
+      "totalPrice": 86515,
+      "userId": "d58a"
+    }
+  ]
+}

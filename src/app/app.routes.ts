@@ -11,6 +11,8 @@ import { SearchComponent } from './search/search.component';
 import { ProductDetailsComponent } from './product-details/product-details.component';
 import { UserAuthComponent } from './user-auth/user-auth.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { MyOrdersComponent } from './my-orders/my-orders.component';
 
 export const routes: Routes = [
   {
@@ -42,6 +44,16 @@ export const routes: Routes = [
     path: 'cart-page',
     component: CartPageComponent,
     title: 'cart page',
+  },
+  {
+    path: 'checkout',
+    component: CheckoutComponent,
+    title: 'check-out',
+  },
+  {
+    path: 'my-orders',
+    component: MyOrdersComponent,
+    title: 'my-orders',
   },
   {
     path: 'seller-home',

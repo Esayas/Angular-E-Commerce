@@ -50,6 +50,7 @@ body {
 }
 .message-p {
   color: green;
+  text-align: center;
 }
 
 .link {
@@ -69,4 +70,8 @@ body {
 
 .link:active {
   color: red;
+}
+
+.max-width {
+  width: 100%;
 }
